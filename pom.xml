@@ -12,8 +12,6 @@
         </pluginRepository>
     </pluginRepositories>
 -->
-
-
     <modelVersion>4.0.0</modelVersion>
     <groupId>Web-Automation</groupId>
     <artifactId>Web-Automation</artifactId>
@@ -21,10 +19,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>Generic</module>
-        <module>Amazon</module>
         <module>Cnn</module>
-        <module>Amazon1</module>
-        <module>Amazon1</module>
         <module>Amazon10</module>
     </modules>
 <dependencyManagement>
@@ -93,7 +88,6 @@
                     <target>1.8</target>
                </configuration>
             </plugin>
-
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>

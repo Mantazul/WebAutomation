@@ -11,6 +11,7 @@
       <set>
         <option value="$PROJECT_DIR$/Amazon/Amazon1/pom.xml" />
         <option value="$PROJECT_DIR$/Amazon/Generic1/pom.xml" />
+        <option value="$PROJECT_DIR$/Amazon/pom.xml" />
         <option value="$PROJECT_DIR$/Generic1/pom.xml" />
         <option value="$PROJECT_DIR$/HomeDepot/pom.xml" />
         <option value="$PROJECT_DIR$/../projectSelenium1/HomeDepot/pom.xml" />
