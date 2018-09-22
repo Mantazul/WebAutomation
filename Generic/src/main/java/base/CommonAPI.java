@@ -26,25 +26,21 @@ import java.util.concurrent.TimeUnit;
 
 public class CommonAPI {
     public static WebDriver driver=null;
-
     @Parameters({"url"})
-@BeforeMethod
+    @BeforeMethod
     public void setUp(@Optional("https://www.Amazon.com/") String url){
     System.setProperty("webdriver.gecko.driver", "/Users/renxing/SeleniumTest18/WebAutomation/Generic/browser-driver/geckodriver");
      driver= new FirefoxDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     driver.navigate().to(url);
-//driver.quit();
+    //driver.quit();
 }
-
-@AfterMethod
+    @AfterMethod
     public void cleanUp(){
     driver.close();
 }
-
 //type
-
-public void clickOnCss(String locator){
+    public void clickOnCss(String locator){
     driver.findElement(By.cssSelector(locator)).click();
 }
     public void clickOnElement(String locator){
@@ -67,28 +63,23 @@ public void clickOnCss(String locator){
         }catch (Exception ex){
             driver.findElement(By.id(locator)).sendKeys(value);
         }
-
     }
 
     public void clickByXpath(String locator) {
         driver.findElement(By.xpath(locator)).click();
     }
-
     public void typeByCss(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value);
     }
     public void typeByCssNEnter(String locator, String value) {
         driver.findElement(By.cssSelector(locator)).sendKeys(value, Keys.ENTER);
     }
-
     public void typeByXpath(String locator, String value) {
         driver.findElement(By.xpath(locator)).sendKeys(value);
     }
-
     public void takeEnterKeys(String locator) {
         driver.findElement(By.cssSelector(locator)).sendKeys(Keys.ENTER);
     }
-
     public void clearInputField(String locator){
         driver.findElement(By.cssSelector(locator)).clear();
     }
@@ -105,7 +96,6 @@ public void clickOnCss(String locator){
             String st = web.getText();
             text.add(st);
         }
-
         return text;
     }
     public List<WebElement> getListOfWebElementsByCss(String locator) {
@@ -170,9 +160,7 @@ public void clickOnCss(String locator){
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
         }
-
     }
     public void mouseHoverByXpath(String locator){
         try {
@@ -184,9 +172,7 @@ public void clickOnCss(String locator){
             WebElement element = driver.findElement(By.cssSelector(locator));
             Actions action = new Actions(driver);
             action.moveToElement(element).perform();
-
         }
-
     }
     //handling Alert
     public void okAlert(){
@@ -197,26 +183,21 @@ public void clickOnCss(String locator){
         Alert alert = driver.switchTo().alert();
         alert.dismiss();
     }
-
     //iFrame Handle
     public void iframeHandle(WebElement element){
         driver.switchTo().frame(element);
     }
-
     public void goBackToHomeWindow(){
         driver.switchTo().defaultContent();
     }
-
     //get Links
     public void getLinks(String locator){
         driver.findElement(By.linkText(locator)).findElement(By.tagName("a")).getText();
     }
-
     public static void captureScreenshot(WebDriver driver, String screenshotName){
         DateFormat df = new SimpleDateFormat("(MM.dd.yyyy-HH:mma)");
         Date date = new Date();
         df.format(date);
-
         File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
         try {
             FileUtils.copyFile(file, new File(System.getProperty("user.dir")+ "/screenshots/"+screenshotName+" "+df.format(date)+".png"));
@@ -224,7 +205,6 @@ public void clickOnCss(String locator){
         } catch (Exception e) {
             System.out.println("Exception while taking screenshot "+e.getMessage());;
         }
-
     }
     //Taking Screen shots
     public void takeScreenShot()throws IOException {
