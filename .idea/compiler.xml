@@ -11,6 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Amazon" target="1.8" />
       <module name="Generic1" target="1.8" />
       <module name="HomeDepot" target="1.8" />
     </bytecodeTargetLevel>

@@ -23,6 +23,7 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Cnn</module>
+        <module>Amazon1</module>
     </modules>
 <dependencyManagement>
         <dependencies>
