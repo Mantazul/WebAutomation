@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c92b73e-1440-4d90-9a50-281f66a933c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/search/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/search/HomePageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/HomePageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/search/HomePageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/search/InputSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/search/InputSearch.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +31,7 @@
     <session id="-1397108442">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.8" value="1" />
@@ -54,13 +56,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2385" />
+          <entry key="java" value="2636" />
           <entry key="xml" value="743" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2385" />
+          <entry key="JAVA" value="2636" />
           <entry key="XML" value="743" />
         </counts>
       </usages-collector>
@@ -131,12 +133,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="54" column="6" selection-start-line="51" selection-start-column="2" selection-end-line="54" selection-end-column="6" />
+            <state relative-caret-position="358">
+              <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1690#1691#0" expanded="true" />
-                <element signature="e#1709#1710#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -265,8 +265,8 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="277" />
-    <option name="y" value="73" />
+    <option name="x" value="81" />
+    <option name="y" value="24" />
     <option name="width" value="1163" />
     <option name="height" value="740" />
   </component>
@@ -399,7 +399,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537603379375" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537606714189" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/HomeDepot/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -440,26 +440,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.InputSearch.clicksell">
-    <configuration name="HomePageTest.searchData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.HomePageTest" />
-      <option name="METHOD_NAME" value="searchData" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InputSearch.clickhelp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.InputSearch.Coupons16">
+    <configuration name="InputSearch.Cart14" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -469,7 +451,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="search" />
       <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
-      <option name="METHOD_NAME" value="clickhelp" />
+      <option name="METHOD_NAME" value="Cart14" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -477,7 +459,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InputSearch.clicksell" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InputSearch.Coupons16" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -487,7 +469,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="search" />
       <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
-      <option name="METHOD_NAME" value="clicksell" />
+      <option name="METHOD_NAME" value="Coupons16" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -495,7 +477,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTest.testEmailBox" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InputSearch.Orders13" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -504,8 +486,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.LoginPageTest" />
-      <option name="METHOD_NAME" value="testEmailBox" />
+      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
+      <option name="METHOD_NAME" value="Orders13" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -513,7 +495,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestSearch.searchData" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="InputSearch.TagName" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon" />
       <extension name="coverage">
         <pattern>
@@ -522,8 +504,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="search" />
-      <option name="MAIN_CLASS_NAME" value="search.TestSearch" />
-      <option name="METHOD_NAME" value="searchData" />
+      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
+      <option name="METHOD_NAME" value="TagName" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InputSearch.TodayDeal12" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="search.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="search" />
+      <option name="MAIN_CLASS_NAME" value="search.InputSearch" />
+      <option name="METHOD_NAME" value="TodayDeal12" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -532,19 +532,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestSearch.searchData" />
-      <item itemvalue="TestNG.LoginPageTest.testEmailBox" />
-      <item itemvalue="TestNG.InputSearch.clickhelp" />
-      <item itemvalue="TestNG.HomePageTest.searchData" />
-      <item itemvalue="TestNG.InputSearch.clicksell" />
+      <item itemvalue="TestNG.InputSearch.TodayDeal12" />
+      <item itemvalue="TestNG.InputSearch.Orders13" />
+      <item itemvalue="TestNG.InputSearch.Cart14" />
+      <item itemvalue="TestNG.InputSearch.TagName" />
+      <item itemvalue="TestNG.InputSearch.Coupons16" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.InputSearch.clicksell" />
-        <item itemvalue="TestNG.HomePageTest.searchData" />
-        <item itemvalue="TestNG.InputSearch.clickhelp" />
-        <item itemvalue="TestNG.TestSearch.searchData" />
-        <item itemvalue="TestNG.LoginPageTest.testEmailBox" />
+        <item itemvalue="TestNG.InputSearch.Coupons16" />
+        <item itemvalue="TestNG.InputSearch.TagName" />
+        <item itemvalue="TestNG.InputSearch.Cart14" />
+        <item itemvalue="TestNG.InputSearch.Orders13" />
+        <item itemvalue="TestNG.InputSearch.TodayDeal12" />
       </list>
     </recent_temporary>
   </component>
@@ -562,42 +562,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HomePageTest_verifyGoToLoginPage - 2018.09.22 at 02h 21m 58s.xml">
-      <configuration name="HomePageTest.verifyGoToLoginPage" configurationId="TestNG" />
+    <history-entry file="InputSearch_YourAmazonCom10 - 2018.09.22 at 04h 17m 10s.xml">
+      <configuration name="InputSearch.YourAmazonCom10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_verifyGoToLoginPage - 2018.09.22 at 02h 23m 19s.xml">
-      <configuration name="HomePageTest.verifyGoToLoginPage" configurationId="TestNG" />
+    <history-entry file="InputSearch_Registry11 - 2018.09.22 at 04h 21m 46s.xml">
+      <configuration name="InputSearch.Registry11" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_verifyGoToLoginPage - 2018.09.22 at 02h 33m 07s.xml">
-      <configuration name="HomePageTest.verifyGoToLoginPage" configurationId="TestNG" />
+    <history-entry file="InputSearch_TodayDeal12 - 2018.09.22 at 04h 22m 20s.xml">
+      <configuration name="InputSearch.TodayDeal12" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearch_searchData - 2018.09.22 at 02h 40m 48s.xml">
-      <configuration name="TestSearch.searchData" configurationId="TestNG" />
+    <history-entry file="InputSearch_Orders13 - 2018.09.22 at 04h 32m 22s.xml">
+      <configuration name="InputSearch.Orders13" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_testEmailBox - 2018.09.22 at 03h 08m 50s.xml">
-      <configuration name="LoginPageTest.testEmailBox" configurationId="TestNG" />
+    <history-entry file="InputSearch_Cart14 - 2018.09.22 at 04h 35m 04s.xml">
+      <configuration name="InputSearch.Cart14" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_testEmailBox - 2018.09.22 at 03h 12m 57s.xml">
-      <configuration name="LoginPageTest.testEmailBox" configurationId="TestNG" />
+    <history-entry file="InputSearch_TagName - 2018.09.22 at 04h 40m 42s.xml">
+      <configuration name="InputSearch.TagName" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginPageTest_testEmailBox - 2018.09.22 at 03h 56m 01s.xml">
-      <configuration name="LoginPageTest.testEmailBox" configurationId="TestNG" />
+    <history-entry file="InputSearch_Coupons16 - 2018.09.22 at 04h 52m 20s.xml">
+      <configuration name="InputSearch.Coupons16" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearch_searchData - 2018.09.22 at 03h 56m 52s.xml">
-      <configuration name="TestSearch.searchData" configurationId="TestNG" />
+    <history-entry file="InputSearch_Coupons16 - 2018.09.22 at 04h 55m 40s.xml">
+      <configuration name="InputSearch.Coupons16" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="InputSearch_clickhelp - 2018.09.22 at 03h 57m 43s.xml">
-      <configuration name="InputSearch.clickhelp" configurationId="TestNG" />
+    <history-entry file="InputSearch_Coupons16 - 2018.09.22 at 04h 57m 15s.xml">
+      <configuration name="InputSearch.Coupons16" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HomePageTest_searchData - 2018.09.22 at 03h 59m 18s.xml">
-      <configuration name="HomePageTest.searchData" configurationId="TestNG" />
+    <history-entry file="InputSearch_Coupons16 - 2018.09.22 at 04h 58m 56s.xml">
+      <configuration name="InputSearch.Coupons16" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="277" y="73" width="1163" height="740" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16146298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16146298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -606,7 +606,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32831737" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26080248" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26080248" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39808482" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -913,12 +913,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/java/search/InputSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="54" column="6" selection-start-line="51" selection-start-column="2" selection-end-line="54" selection-end-column="6" />
+        <state relative-caret-position="358">
+          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1709#1710#0" expanded="true" />
           </folding>
         </state>
       </provider>
