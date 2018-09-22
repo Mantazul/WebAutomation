@@ -24,6 +24,8 @@
         <module>Amazon</module>
         <module>Cnn</module>
         <module>Amazon1</module>
+        <module>Amazon1</module>
+        <module>Amazon10</module>
     </modules>
 <dependencyManagement>
         <dependencies>
