@@ -11,99 +11,18 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 public class LoginPage extends CommonAPI {
-    @FindBy(xpath = "//div[text()='My Account']")
-    public static WebElement myAcctButton;
-    @FindBy(xpath = "//*[@id=\'authSignIn\']/a/span")
-    public static WebElement signinLink;
-    @FindBy(id = "email_id")
-    public static WebElement emailBox;
+    @FindBy(id="ap_email")public static WebElement emailBox;
+    @FindBy(className ="a-button-input")public static WebElement continueButton;
+    @FindBy(className ="a-list-item")public static WebElement errorMessage;
 
-    //Go to Login Page
-   /* public static void goToLoginPage() {
-        myAcctButton.click();
-        for (String handle : driver.getWindowHandles()) {
-            driver.switchTo().window(handle);
-        }
-        new WebDriverWait(driver, 50).until(ExpectedConditions.elementToBeClickable(signinLink));
-        signinLink.click();
-    }*/
+    public void sendEmail(String email){
+        driver.navigate().to("https://www.amazon.com/ap/signin?_encoding=UTF8&ignoreAuthState=1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fs%2Fref%3Dnav_signin%3Furl%3Dsearch-alias%253Daps%26field-keywords%3Dlaptop%26sprefix%3Dlap%252Caps%252C150%26crid%3D3I3FSEKFYREJR&switch_account=");
+        emailBox.sendKeys(email);
+        continueButton.click();
+    }
+    public String getErrorMessage(){
+        String message = errorMessage.getText();
+        return message;
+    }
 
-
-   @FindBy(id="email_id")
-    public static WebElement emailBox1;
-    @FindBy(id="password")
-    public static WebElement passwordBox;
-    @FindBy(xpath="//*[@id='accountSignIn']/span")
-    public static WebElement signinButton;
-    @FindBy(xpath="//span[contains(text(),'your email')]")
-    public static WebElement errorEmailMessage;
-    @FindBy(xpath="//span[contains(text(),'your password')]")
-    public static WebElement errorPasswordMessage;
-    @FindBy(xpath="//a[contains(text(),'Forgot')]")
-    public static WebElement forgotPasswordLink;
-    @FindBy(xpath="//*[@id='forgotpasswordEmail']")
-    public static WebElement forgotPasswordEmail;
-    @FindBy(xpath="//span[text()='Submit']")
-    public static WebElement forgotPasswordSubmit;
-    @FindBy (xpath="//*[@id='userLogin']/div/div[5]/a[1]")
-    public static WebElement termsConditionLink;
-    @FindBy (xpath="//*[@id='userLogin']/div/div[5]/a[2]")
-    public static WebElement privacySecurityLink;
-    @FindBy (xpath="//*[@id='container']/div[2]//h1")
-    public static WebElement termsConditionText;
-
-    public static boolean checkEmailTextBoxEnable() {
-        boolean bl = emailBox.isEnabled();
-        return bl;
-    }
-    public static boolean checkPasswordTextBoxEnable(){
-        boolean pb = passwordBox.isEnabled();
-        return pb;
-    }
-    public static boolean checkSignInButton(){
-        emailBox.sendKeys("abby");
-        passwordBox.sendKeys("abcd1234");
-        boolean bl = signinButton.isEnabled();
-        System.out.println(bl);
-        return bl;
-    }
-    public static String invalidEmail() {
-        emailBox.sendKeys("abby", Keys.ENTER);
-        String str = errorEmailMessage.getText();
-        return str;
-    }
-    public static String invalidPassword(){
-        passwordBox.sendKeys("", Keys.ENTER);
-        String str = errorPasswordMessage.getText();
-        return str;
-    }
-    public static String verifyMyAccount() throws InterruptedException {
-        int con =driver.findElements(By.xpath("//*[@id='userLogin']/div/div[5]/a[1]")).size();
-        driver.findElements(By.xpath("//*[@id='userLogin']/div/div[5]/a[1]")).get(con-1).click();
-        new WebDriverWait(driver, 50).until(ExpectedConditions.elementToBeClickable(termsConditionText));
-        String str = termsConditionText.getText();
-        return str;
-    }
-    public void verifyForgotEmail() throws InterruptedException {
-        new WebDriverWait(driver, 50).until(ExpectedConditions.elementToBeClickable(forgotPasswordLink));
-        forgotPasswordLink.click();
-        wait();
-        driver.getWindowHandle();
-        forgotPasswordEmail.sendKeys("aarti@gmail.com");
-        System.out.println("url link " + driver.getCurrentUrl());
-        forgotPasswordSubmit.click();
-        wait();
-        System.out.println("URL of 'Forgot password' page: " + driver.getCurrentUrl());
-    }
-    public void checkClearText(){
-        emailBox.sendKeys("Aarti Pathania");
-        emailBox.clear();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        emailBox.sendKeys("aarti@gmail.com");
-        emailBox.clear();
-    }
-    public void enterInvalidEmail() {
-        passwordBox.sendKeys("", Keys.ENTER);
-    }
 }
-

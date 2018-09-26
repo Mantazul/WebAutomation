@@ -13,6 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage extends CommonAPI {
+
     @FindBy(how = How.CSS, using = "#twotabsearchtextbox") WebElement searchboxwebelement;
     @FindBy(how = How.CSS, using = ".nav-input") WebElement submitbuttonwebelement;
 

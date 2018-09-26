@@ -1,5 +1,6 @@
 package pages;
 
+import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,11 +10,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchPage {
+public class SearchPage extends CommonAPI {
     @FindBy(how = How.CSS, using ="#twotabsearchtextbox")
     public static WebElement searchInputWebElement;
     @FindBy(how = How.CSS, using =".nav-input")
     public static WebElement submitButtonWebElement;
+
     public WebElement getSearchInputWebElement() {
          return searchInputWebElement;
     }

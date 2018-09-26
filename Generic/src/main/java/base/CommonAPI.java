@@ -33,6 +33,7 @@ public class CommonAPI {
      driver= new FirefoxDriver();
     driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     driver.navigate().to(url);
+    driver.manage().window().fullscreen();
     //driver.quit();
 }
     @AfterMethod
