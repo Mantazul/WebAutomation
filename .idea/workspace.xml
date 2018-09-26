@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c92b73e-1440-4d90-9a50-281f66a933c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mongoSettings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Amazon10/src/test/java/search/Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/XlsDataReaderUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Generic/src/main/java/base/Xls_Reader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/main/java/pages/InputSearchPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/main/java/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/main/java/pages/SearchPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/test/java/search/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/test/java/search/HomePageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/test/java/search/InputSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/test/java/search/InputSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/test/java/search/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/test/java/search/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/test/java/search/SearchPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/test/java/search/SearchPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Amazon10/src/test/resources/AmazonTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Amazon10/src/test/resources/AmazonTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2c92b73e-1440-4d90-9a50-281f66a933c9" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -144,7 +125,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Amazon10/src/test/java/search/TodaysDealsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="435">
               <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -373,7 +354,7 @@
   <component name="MavenRunner">
     <option name="skipTests" value="true" />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="149" />
     <option name="y" value="49" />
     <option name="width" value="1266" />
@@ -546,7 +527,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537950763498" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1537951119662" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/HomeDepot/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -709,9 +690,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TodaysDealsTest_testMenuItems - 2018.09.26 at 03h 40m 45s.xml">
-      <configuration name="TodaysDealsTest.testMenuItems" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="TodaysDealsTest_testMenuItems - 2018.09.26 at 03h 49m 53s.xml">
       <configuration name="TodaysDealsTest.testMenuItems" configurationId="TestNG" />
     </history-entry>
@@ -739,12 +717,14 @@
     <history-entry file="NavigationBar_NavigationBar3 - 2018.09.26 at 04h 17m 11s.xml">
       <configuration name="NavigationBar.NavigationBar3" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="TodaysDealsTest_testMenuItems - 2018.09.26 at 04h 33m 10s.xml">
+      <configuration name="TodaysDealsTest.testMenuItems" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="149" y="49" width="1266" height="793" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21977124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21977124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -753,12 +733,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32650602" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32097003" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32097003" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.394958" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.2857143" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2853067" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.4" />
@@ -1157,7 +1137,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Amazon10/src/test/java/search/TodaysDealsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="435">
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
