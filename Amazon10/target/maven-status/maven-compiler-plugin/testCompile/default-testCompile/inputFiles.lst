@@ -1,7 +1,10 @@
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/Tests.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/LinkTestPageTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/LoginPageTest.java
-/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/InputSearchTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/SearchPageTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/TagNamePageTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/menu/MenuPage.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/HomePageTest.java
-/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/NavigationBar.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/TodaysDealsTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dataDrivenTest/GoogleSheetsPageTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/NavigationBarTest.java

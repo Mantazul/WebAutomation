@@ -1,5 +1,12 @@
-base/XlsDataReaderUtil.class
-base/ConnectToMongoDB.class
-base/Xls_Reader.class
+cloudEnv/BrowserStack.class
+database/ConnectToMongoDB.class
 base/CommonClass.class
 base/CommonAPI.class
+reporting/ExtentManager.class
+reporting/ApplicationLog.class
+reporting/ExtentTestManager.class
+utility/DataReader.class
+googleAPI/GoogleSheetReader.class
+database/Xls_Reader.class
+reporting/TestLogger.class
+database/XlsDataReaderUtil.class

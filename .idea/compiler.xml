@@ -9,6 +9,7 @@
         <module name="Amazon10" />
         <module name="Cnn" />
         <module name="Generic" />
+        <module name="Pnt" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

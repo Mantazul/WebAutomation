@@ -14,14 +14,13 @@ import java.util.List;
 
 public class HomePage extends CommonAPI {
 
+
     @FindBy(how = How.CSS, using = "#twotabsearchtextbox") WebElement searchboxwebelement;
     @FindBy(how = How.CSS, using = ".nav-input") WebElement submitbuttonwebelement;
-
-    //login
+    /*//login
     @FindBy(xpath = "/html/body/div[2]/header/div/div[2]/div[2]/div/a[2]/span[1]") WebElement HelloSignInButton;
     @FindBy(xpath = "/html/body/div[2]/header/div/div[1]/div[4]/div[3]/div[2]/div/div[1]/div/a/span") WebElement signinLink;
-    @FindBy(id = "ap_email") WebElement emailBox;
-
+    @FindBy(id = "ap_email") WebElement emailBox;*/
     public WebElement getSearchboxwebelement() {
         return searchboxwebelement;
     }
@@ -78,16 +77,16 @@ public class HomePage extends CommonAPI {
         return itemsList;
     }
 
-    //Go to Login Page
+    /*//Go to Login Page
     public void goToLoginPage() {
         HelloSignInButton.click();
         for (String handle : driver.getWindowHandles()) {
             driver.switchTo().window(handle);
         }
         new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(signinLink));
-        signinLink.click();
+        signinLink.click();*/
     }
-}
+
 
 
 

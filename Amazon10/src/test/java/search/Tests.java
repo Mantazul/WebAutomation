@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class Tests extends CommonAPI {
-    /*@Test
+    @Test
     public void search(){
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("laptop", Keys.ENTER);
     }
@@ -88,5 +88,5 @@ public class Tests extends CommonAPI {
         driver.findElement(By.className("nav-a")).click();
         driver.findElement(By.linkText("Coupons")).click();
     }
-}*/
 }
+

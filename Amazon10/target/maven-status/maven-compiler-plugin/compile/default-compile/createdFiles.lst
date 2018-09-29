@@ -1,4 +1,8 @@
+pages/TodayDeals.class
+pages/LinkTestPage.class
+dataDrivenPage/GoogleSheetClass.class
+pages/HomePage.class
+pages/TagNamePage.class
 pages/LoginPage.class
 pages/NavigationBarOptionMethod.class
-pages/HomePage.class
 pages/SearchPage.class

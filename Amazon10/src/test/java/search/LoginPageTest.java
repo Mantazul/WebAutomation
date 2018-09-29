@@ -1,6 +1,6 @@
 package search;
 
-import base.XlsDataReaderUtil;
+import database.XlsDataReaderUtil;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -19,19 +19,14 @@ public class LoginPageTest extends LoginPage {
     }
     @DataProvider
     public Iterator<Object[]> supplyData(){
-
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
-
         return testData.iterator();
-
     }
     @Test(dataProvider = "supplyData")
-    public void loginPageTest(String email,String errormessage)  {
-        sendEmail(email);
-        String message = getErrorMessage();
+    public void loginPageTest(String email,String errormessage)throws InterruptedException{
+        signinClick();
+        String message = sendEmail(email);
         Assert.assertEquals(message,errormessage);
     }
 }
-
-

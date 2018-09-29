@@ -16,7 +16,7 @@ public class CommonClass {
         System.setProperty("webdriver.gecko.driver","/Users/renxing/SeleniumTest18/WebAutomation/Generic/browser-driver/geckodriver");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.get("https://www.amazon.com/");
+        driver.get("https://forum.piit.us/");
 
     }
     @BeforeMethod

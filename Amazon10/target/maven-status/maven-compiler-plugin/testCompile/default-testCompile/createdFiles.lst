@@ -1,7 +1,10 @@
 search/HomePageTest.class
-search/InputSearchTest.class
 search/Tests.class
-search/NavigationBar.class
+search/LinkTestPageTest.class
 menu/MenuPage.class
+search/TodaysDealsTest.class
 search/LoginPageTest.class
+dataDrivenTest/GoogleSheetsPageTest.class
+search/NavigationBarTest.class
 search/SearchPageTest.class
+search/TagNamePageTest.class

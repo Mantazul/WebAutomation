@@ -1,5 +1,12 @@
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/reporting/TestLogger.java
 /Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/base/CommonClass.java
-/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/base/Xls_Reader.java
-/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/base/ConnectToMongoDB.java
-/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/base/XlsDataReaderUtil.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/database/ConnectToMongoDB.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/cloudEnv/BrowserStack.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/database/Xls_Reader.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/reporting/ExtentManager.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/googleAPI/GoogleSheetReader.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/utility/DataReader.java
 /Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/base/CommonAPI.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/database/XlsDataReaderUtil.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/reporting/ApplicationLog.java
+/Users/renxing/SeleniumTest18/WebAutomation/Generic/src/main/java/reporting/ExtentTestManager.java

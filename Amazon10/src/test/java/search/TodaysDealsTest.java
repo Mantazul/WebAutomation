@@ -1,6 +1,6 @@
 package search;
 
-import base.ConnectToMongoDB;
+import database.ConnectToMongoDB;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -23,7 +23,5 @@ public class TodaysDealsTest extends TodayDeals {
         for(int index=0;index<spanText.size();index++){
             Assert.assertEquals(element.get(index).getText(),spanText.get(index));
         }
-
-
     }
 }
