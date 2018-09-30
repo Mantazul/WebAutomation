@@ -17,12 +17,6 @@ public class LoginPageTest extends LoginPage {
     public void init() {
         object = PageFactory.initElements(driver, LoginPage.class);
     }
-    @DataProvider
-    public Iterator<Object[]> supplyData(){
-        ArrayList<Object[]> testData =
-                XlsDataReaderUtil.getDataFromExcel();
-        return testData.iterator();
-    }
     @Test(dataProvider = "supplyData")
     public void loginPageTest(String email,String errormessage)throws InterruptedException{
         signinClick();

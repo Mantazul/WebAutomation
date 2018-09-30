@@ -1,10 +1,12 @@
 search/HomePageTest.class
+dropDownMenuTest/TestDropDownMenu.class
 search/Tests.class
-search/LinkTestPageTest.class
-menu/MenuPage.class
 search/TodaysDealsTest.class
-search/LoginPageTest.class
 dataDrivenTest/GoogleSheetsPageTest.class
 search/NavigationBarTest.class
+dataDrivenTest/GoogleSheetsPageTest$1.class
+dropDownMenuTest/TestDropDownMenu$1.class
+search/LinkTestPageTest.class
+search/LoginPageTest.class
 search/SearchPageTest.class
 search/TagNamePageTest.class

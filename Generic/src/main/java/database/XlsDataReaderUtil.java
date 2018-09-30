@@ -3,15 +3,11 @@ package database;
 import java.util.ArrayList;
 
 public class XlsDataReaderUtil {
-
     static Xls_Reader reader;
-
     public static ArrayList<Object[]> getDataFromExcel(){
-
         ArrayList<Object[]> myData = new ArrayList<Object[]>();
         try {
-
-            reader = new Xls_Reader("/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/data/datafile02.xls");
+            reader = new Xls_Reader("/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/data/dataofHomeDepot.xls");
         }
         catch (Exception e){
             e.printStackTrace();
@@ -23,7 +19,6 @@ public class XlsDataReaderUtil {
             Object obj[] = {email, message};
             myData.add(obj);
         }
-
         return  myData;
     }
 }

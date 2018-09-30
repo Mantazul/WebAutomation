@@ -7,6 +7,7 @@ import org.testng.annotations.Test;
 import dataDrivenPage.GoogleSheetClass;
 import pages.HomePage;
 import pages.LoginPage;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.List;
@@ -22,6 +23,7 @@ public class GoogleSheetsPageTest extends GoogleSheetClass {
     //Verify log in by taking data from a google sheets file
     @Test
     public void testLogInByInvalidIdPassUsingGoogleSheet() throws IOException, InterruptedException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         //Thread.sleep(3000);
         Thread.sleep(3000);
         int i = 0;

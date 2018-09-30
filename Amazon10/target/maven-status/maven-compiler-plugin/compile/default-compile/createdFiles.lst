@@ -2,6 +2,7 @@ pages/TodayDeals.class
 pages/LinkTestPage.class
 dataDrivenPage/GoogleSheetClass.class
 pages/HomePage.class
+menu/MenuPage.class
 pages/TagNamePage.class
 pages/LoginPage.class
 pages/NavigationBarOptionMethod.class

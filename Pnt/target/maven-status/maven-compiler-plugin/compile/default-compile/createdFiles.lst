@@ -1,8 +1,8 @@
-logInPage/popUpHandlingPage/HandlePopUp.class
-logInPage/popUpHandlingPage/HandlePopUp$2.class
-logInPage/popUpHandlingPage/HandlePopUp$6.class
-logInPage/popUpHandlingPage/HandlePopUp$4.class
-logInPage/popUpHandlingPage/HandlePopUp$1.class
-logInPage/popUpHandlingPage/HandlePopUp$7.class
-logInPage/popUpHandlingPage/HandlePopUp$3.class
-logInPage/popUpHandlingPage/HandlePopUp$5.class
+popupPage/HandlePopUp$6.class
+popupPage/HandlePopUp$3.class
+popupPage/HandlePopUp$4.class
+popupPage/HandlePopUp.class
+popupPage/HandlePopUp$1.class
+popupPage/HandlePopUp$2.class
+popupPage/HandlePopUp$5.class
+popupPage/HandlePopUp$7.class

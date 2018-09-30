@@ -8,32 +8,27 @@ import org.openqa.selenium.support.FindBy;
 import reporting.TestLogger;
 
 public class HandlePopUp{
-
     @FindBy(css = ".modal-body")
     public WebElement scholarshipPopUpWindowWebElement;
-    @FindBy(css = ".modal-header.border-0 .close")
+    //@FindBy(css = ".modal-header.border-0 .close")
+    @FindBy(xpath = "//*[@id=\"modal_subscribe\"]/div/div/div[1]/button")
     public WebElement scholarshipPopUpWindowCloseWebElement;
-
     public WebElement getScholarshipPopUpWindowWebElement() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return scholarshipPopUpWindowWebElement;
     }
-
     public void setScholarshipPopUpWindowWebElement(WebElement scholarshipPopUpWindowWebElement) {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         this.scholarshipPopUpWindowWebElement = scholarshipPopUpWindowWebElement;
     }
-
     public WebElement getScholarshipPopUpWindowCloseWebElement() {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return scholarshipPopUpWindowCloseWebElement;
     }
-
     public void setScholarshipPopUpWindowCloseWebElement(WebElement scholarshipPopUpWindowCloseWebElement) {
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         this.scholarshipPopUpWindowCloseWebElement = scholarshipPopUpWindowCloseWebElement;
     }
-
     public boolean isScholarshipPopUpWindowDisplayed(WebDriver driver1, String locator){
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         boolean value = CommonAPI.isPopUpWindowDisplayed(driver1, locator);
@@ -44,7 +39,6 @@ public class HandlePopUp{
         setScholarshipPopUpWindowCloseWebElement(scholarshipPopUpWindowCloseWebElement);
         getScholarshipPopUpWindowCloseWebElement().click();
     }
-
     public void handlePopUpWindowBeforeLogIn(WebDriver driver1)throws InterruptedException{
         TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         CommonAPI.sleepFor(2);
@@ -55,5 +49,4 @@ public class HandlePopUp{
             CommonAPI.sleepFor(2);
         }
     }
-
 }

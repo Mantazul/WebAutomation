@@ -6,12 +6,9 @@
         <artifactId>Web-Automation</artifactId>
         <groupId>Web-Automation</groupId>
         <version>1.0-SNAPSHOT</version>
-
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>Generic</artifactId>
-
     <dependencies>
         <dependency>
             <groupId>org.testng</groupId>
@@ -62,5 +59,4 @@
             <artifactId>rest-assured</artifactId>
         </dependency>
     </dependencies>
-
 </project>

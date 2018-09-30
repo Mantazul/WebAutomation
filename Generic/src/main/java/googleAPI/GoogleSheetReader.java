@@ -50,7 +50,7 @@ public class GoogleSheetReader {
      */
     public static Credential authorize() throws IOException {
         // Load client secrets.
-        InputStream in = googleAPI.GoogleSheetReader.class.getResourceAsStream("/client_secret01.json");
+        InputStream in = googleAPI.GoogleSheetReader.class.getResourceAsStream("/client_secret.json");
         GoogleClientSecrets clientSecrets = GoogleClientSecrets.load(JSON_FACTORY, new InputStreamReader(in));
         // Build flow and trigger user authorization request.
         GoogleAuthorizationCodeFlow flow = new GoogleAuthorizationCodeFlow.Builder(

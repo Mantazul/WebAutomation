@@ -9,7 +9,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MenuPage extends CommonAPI {
-@Test
     public void readMenuTest(){
         List<String> actualData = new ArrayList<>();
         List<WebElement> element =getListOfWebElementsByCss(".nav-search-dropdown.searchSelect option");
@@ -21,5 +20,4 @@ public class MenuPage extends CommonAPI {
     List<String> menuData = new ArrayList<>();
     Assert.assertEquals(menuData,actualData);
     }
-
 }

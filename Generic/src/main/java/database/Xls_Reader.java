@@ -13,7 +13,6 @@ public class Xls_Reader {
     private HSSFSheet sheet = null;
     private HSSFRow row = null;
     private HSSFCell cell = null;
-
     public Xls_Reader(String path) {
         this.path = path;
         try {
