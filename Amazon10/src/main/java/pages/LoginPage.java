@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
-public class LoginPage extends CommonAPI {
+public class LoginPage extends CommonAPI{
     @FindBy(id="ap_email")public static WebElement emailBox;
     @FindBy(className ="a-button-input")public static WebElement continueButton;
     @FindBy(className ="a-list-item")public static WebElement errorMessage;

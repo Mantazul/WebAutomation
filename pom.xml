@@ -3,7 +3,6 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>Web-Automation</groupId>
     <artifactId>Web-Automation</artifactId>
     <packaging>pom</packaging>
@@ -14,8 +13,7 @@
         <module>Amazon10</module>
         <module>Pnt</module>
     </modules>
-
-<dependencyManagement>
+    <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>org.testng</groupId>
@@ -143,7 +141,7 @@
                 <version>1.0-beta</version>
             </dependency>-->
         </dependencies>
-</dependencyManagement>
+    </dependencyManagement>
     <build>
         <plugins>
             <plugin>
@@ -166,5 +164,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

@@ -57,7 +57,6 @@ public class DataReader {
         }
         return data;
     }
-
     public String getCellValue(HSSFCell cell) {
         Object value = null;
         int dataType = cell.getCellType();

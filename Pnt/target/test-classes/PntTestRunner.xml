@@ -14,5 +14,4 @@
             <class name="handlepopuptest.TestPopUpHandle"/>
         </classes>
     </test>
-
 </suite>

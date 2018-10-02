@@ -23,6 +23,5 @@ public class ExtentManager {
     }
     public static void setOutputDirectory(ITestContext context){
         ExtentManager.context = context;
-
     }
 }
