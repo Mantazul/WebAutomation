@@ -5,6 +5,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LinkTestPage;
 import pages.NavigationBarOptionMethod;
+import reporting.TestLogger;
 
 import static pages.LinkTestPage.yourAzcom;
 
@@ -16,12 +17,14 @@ public class LinkTestPageTest extends LinkTestPage {
     }
     @Test
     public void LinkTestPage() throws InterruptedException {
-    yourAzcom();
-    Thread.sleep(3000);
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        yourAzcom();
+        Thread.sleep(3000);
     }
     @Test
     public void LinkTestPage1()throws InterruptedException{
-    your();
-    Thread.sleep(3000);
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        your();
+        Thread.sleep(3000);
     }
 }

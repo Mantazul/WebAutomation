@@ -4,6 +4,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.TagNamePage;
+import reporting.TestLogger;
+
 import java.io.IOException;
 
 public class TagNamePageTest extends TagNamePage {
@@ -14,7 +16,7 @@ public class TagNamePageTest extends TagNamePage {
     }
     @Test
     public void searchTagName()throws IOException {
-        registryA.getText();
-        registryA();
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        registryATest();
     }
 }

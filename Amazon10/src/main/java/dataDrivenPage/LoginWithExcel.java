@@ -44,7 +44,6 @@ public class LoginWithExcel extends CommonAPI {
     }
     @DataProvider
     public Iterator<Object[]> supplyData(){
-        //TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         ArrayList<Object[]> testData =
                 XlsDataReaderUtil.getDataFromExcel();
         return testData.iterator();

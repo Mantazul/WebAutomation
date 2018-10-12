@@ -8,12 +8,10 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.NavigationBarOptionMethod;
 import reporting.TestLogger;
-
 import java.io.IOException;
 import java.util.List;
 
 public class GoogleSheetsPageTest extends GoogleSheetClass {
-
     GoogleSheetClass googleSheetClass;
     NavigationBarOptionMethod navigationBarOptionMethod;
     @BeforeMethod
