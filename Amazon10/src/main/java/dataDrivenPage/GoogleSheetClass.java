@@ -17,13 +17,16 @@ import java.util.List;
 import static googleAPI.GoogleSheetReader.getSheetsService;
 
 public class GoogleSheetClass extends CommonAPI {
-    /*@FindBy(css = "#nav-flyout-ya-signin > a > span")//#nav-signin-tooltip > a > span
-    public static WebElement signIn;*/
-    @FindBy(css = "#ap_email")
+    //@FindBy(css = "#nav-flyout-ya-signin > a > span")//#nav-signin-tooltip > a > span
+//    @FindBy(css="#glow-ingress-line1")
+//    public static WebElement signIn;
+    //@FindBy(css = "#ap_email")
+   @FindBy(xpath = " //input[@type='email']")
     public static WebElement emailId;
     @FindBy(id = "continue")
     public static WebElement continueButton;
-    @FindBy(css = "#auth-error-message-box > div > div > ul > li")
+    //@FindBy(css = "#auth-error-message-box > div > div > ul > li")
+    @FindBy(xpath="//span[@class='a-list-item']")
     public static WebElement errorMsg;
 
     public List<List<Object>> getSpreadSheetRecords(String spreadsheetId, String range) throws IOException {
@@ -133,6 +136,10 @@ public class GoogleSheetClass extends CommonAPI {
 //        result.add(actualError);
 //        return result;
 //    }
+
+    public void clickOnSignBtn(){
+        //signIn.click();
+    }
     }
 
 

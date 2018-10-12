@@ -30,7 +30,7 @@ public class NavigationBarOptionMethod extends CommonAPI {
     @FindBy(css="#nav-xshop > a:nth-child(7)")public static WebElement treasureTruck;
     @FindBy(css="#nav-xshop > a:nth-child(8)")public static WebElement help;
     @FindBy(className = "icp-nav-language")public static WebElement en;
-    @FindBy(css="#glow-ingress-line1")public static WebElement helloSignIn;
+    @FindBy(xpath="//span[contains(text(),'Hello. Sign in')]")public static WebElement helloSignIn;
     @FindBy(css="#glow-ingress-line2")public static WebElement accountLists;
     @FindBy(css="#icp-nav-flyout > span.icp-nav-link-inner > span.nav-line-2")public static WebElement orders;
     @FindBy(css="#nav-link-prime > span.nav-line-2")public static WebElement tryPrime;
