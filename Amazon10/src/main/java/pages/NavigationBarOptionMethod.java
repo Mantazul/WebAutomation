@@ -2,6 +2,7 @@ package pages;
 
 import base.CommonAPI;
 import base.CommonClass;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
@@ -13,7 +14,8 @@ public class NavigationBarOptionMethod extends CommonAPI {
     @FindBy(className ="hm-icon nav-sprite")public static WebElement threeLines;
     @FindBy(className ="nav-sprite nav-logo-base")public static WebElement amazon;
     @FindBy(className ="nav-sprite nav-logo-tagline nav-prime-try")public static WebElement tryPrimeUnderAmazon;
-    @FindBy(css="#twotabsearchtextbox")public static WebElement searchbox;
+    @FindBy(id="nav-bar-left")public static WebElement productSearchOption;
+    @FindBy(css="#twotabsearchtextbox")public static WebElement searchBox;
     @FindBy(css="#nav-search > form > div.nav-right > div > input")public static WebElement submitButton;
     @FindBy(xpath = "//*[@id=\"nav-search\"]/form/div[2]/div/input")public static WebElement submitButton1;
     @FindBy(css="#navSwmHoliday > a > img")public static WebElement discoverSmallMediumBusiness;
@@ -51,7 +53,7 @@ public class NavigationBarOptionMethod extends CommonAPI {
        tryPrimeUnderAmazon.click();
    }
     public void searchBox(){
-        searchbox.click();
+        searchBox.click();
     }
     public void submitButton(){
         submitButton.click();
@@ -108,6 +110,23 @@ public class NavigationBarOptionMethod extends CommonAPI {
    }
     public void departments(){departments.isDisplayed();}
     public void signIn(){signIn.click();}
+    public String searchProduct() {
+        String url = driver.getCurrentUrl();
+        System.out.println("Home Page title: " + driver.getTitle());
+        searchBox.sendKeys("I phone", Keys.ENTER);
+        String title = driver.getTitle();
+        System.out.println("Get Product Search Page Title: " + title);
+        return title;
+    }
+    /*public String searchSuppliers() {
+        productSearchOption.click();
+        searchBox.sendKeys("laptop i7");
+        submitButton.click();
+        switchWindow(driver);
+        String title = driver.getTitle();
+        System.out.println("Suppliers Search Page Titel: " + title);
+        return title;
+    }*/
 }
 
 

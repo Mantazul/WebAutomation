@@ -12,7 +12,7 @@ public class LinkTestPage extends CommonAPI {
     public void yourAzcom(){
         yourAzcom.click();
     }
-    @FindBy(partialLinkText = "Your")public static WebElement your;
+    @FindBy(partialLinkText="Your")public static WebElement your;
     public void your(){
         your.click();
     }

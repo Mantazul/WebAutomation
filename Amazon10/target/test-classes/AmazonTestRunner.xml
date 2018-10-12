@@ -10,13 +10,13 @@
     <parameter name="url" value="https://www.amazon.com/"/>
     <test name = "Search Test">
         <classes>
-            <!--<class name="search.LoginPageTest"/>
+            <class name="dataDrivenTest.LoginPageTest"/>
             <class name="menu.MenuPage"/>
             <class name="search.HomePageTest"/>
             <class name="search.TodaysDealsTest"/>
             <class name="search.Tests"/>
             <class name="search.NavigationBarTest"/>
-            <class name="search.SearchPageTest"/>-->
+            <class name="search.SearchPageTest"/>
             <class name="dataDrivenTest.GoogleSheetsPageTest"/>
         </classes>
     </test>

@@ -4,9 +4,10 @@ search/Tests.class
 search/TodaysDealsTest.class
 dataDrivenTest/GoogleSheetsPageTest.class
 search/NavigationBarTest.class
+dataDrivenTest/LoginWithExcelTest$1.class
 dataDrivenTest/GoogleSheetsPageTest$1.class
 dropDownMenuTest/TestDropDownMenu$1.class
 search/LinkTestPageTest.class
-search/LoginPageTest.class
 search/SearchPageTest.class
 search/TagNamePageTest.class
+dataDrivenTest/LoginWithExcelTest.class

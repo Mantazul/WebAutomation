@@ -83,7 +83,7 @@ public class Tests extends CommonAPI {
         WebElement title = driver.findElement(By.tagName("title"));
         System.out.println(title.getText());
     }
-    @Test
+    @Test//f
     public void Coupons16(){
         driver.findElement(By.className("nav-a")).click();
         driver.findElement(By.linkText("Coupons")).click();

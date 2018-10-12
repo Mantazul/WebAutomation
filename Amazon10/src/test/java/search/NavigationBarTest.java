@@ -1,6 +1,7 @@
 package search;
 
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.NavigationBarOptionMethod;
@@ -23,7 +24,7 @@ public class NavigationBarTest extends NavigationBarOptionMethod {
     public void NavigationBar3(){
        amazon();
     }
-    @Test
+    @Test//f
     public void NavigationBar4(){
         tryPrimeUnderAmazon();
     }
@@ -73,15 +74,15 @@ public class NavigationBarTest extends NavigationBarOptionMethod {
     public void NavigationBar15(){
         sell();
     }
-    @Test
+    @Test//f
     public void NavigationBar16(){
         treasureTruck();
     }
-    @Test
+    @Test//f
     public void NavigationBar17(){
         help();
     }
-    @Test //f
+    @Test
     public void NavigationBar18(){
         en();
     }
@@ -109,6 +110,19 @@ public class NavigationBarTest extends NavigationBarOptionMethod {
     public void display(){departments();}
     @Test
     public void signInBottom(){signIn();}
+    @Test(priority = 1, enabled = true)
+    public void testProductSearch() {
+        String actual = object.searchProduct();
+        String expected = "I Phone";
+        new AssertionError(actual.contains(expected));
+        //Assert.assertTrue(actual.contains(expected));
+    }
+    /*@Test(priority = 2, enabled = true)
+    public void testSupplierSearch() {
+        String actual = object.searchSuppliers();
+        String expected = "Laptop";
+        Assert.assertTrue(actual.contains(expected));
+    }*/
  }
 
 

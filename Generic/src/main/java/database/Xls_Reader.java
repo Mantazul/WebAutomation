@@ -116,12 +116,8 @@ public class Xls_Reader {
                     cellText = cal.get(Calendar.MONTH) + 1 + "/" +
                             cal.get(Calendar.DAY_OF_MONTH) + "/" +
                             cellText;
-
                     // System.out.println(cellText);
-
                 }
-
-
                 return cellText;
             } else if (cell.getCellType() == Cell.CELL_TYPE_BLANK)
                 return "";
@@ -133,7 +129,6 @@ public class Xls_Reader {
             return "row " + rowNum + " or column " + colNum + " does not exist  in xls";
         }
     }
-
     // find whether sheets exists
     public boolean isSheetExist(String sheetName) {
         int index = workbook.getSheetIndex(sheetName);
@@ -146,22 +141,16 @@ public class Xls_Reader {
         } else
             return true;
     }
-
     // returns number of columns in a sheet
     public int getColumnCount(String sheetName) {
         // check if sheet exists
         if (!isSheetExist(sheetName))
             return -1;
-
         sheet = workbook.getSheet(sheetName);
         row = sheet.getRow(0);
-
         if (row == null)
             return -1;
-
         return row.getLastCellNum();
-
-
     }
 }
 

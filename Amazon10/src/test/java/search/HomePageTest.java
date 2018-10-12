@@ -18,15 +18,10 @@ public class HomePageTest extends HomePage {
          typeOnInputBox("#searchDropdownBox","coffee");
      }
      @Test
-    public void searchData()throws IOException {
+     public void searchData()throws IOException {
         HomePage homePage=PageFactory.initElements(driver,HomePage.class);
         homePage.searchItemsAndSubmitButton();
     }
-    /*@Test   //(failed)
-    public void verifyGoToLoginPage()throws IOException {
-        HomePage homePage = PageFactory.initElements(driver, HomePage.class);
-        homePage.goToLoginPage();
-    }*/
 }
 
 

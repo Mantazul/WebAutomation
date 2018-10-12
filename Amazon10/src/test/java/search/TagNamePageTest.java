@@ -14,6 +14,7 @@ public class TagNamePageTest extends TagNamePage {
     }
     @Test
     public void searchTagName()throws IOException {
+        registryA.getText();
         registryA();
     }
 }

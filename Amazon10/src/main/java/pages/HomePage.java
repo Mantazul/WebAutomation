@@ -13,29 +13,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HomePage extends CommonAPI {
+    @FindBy(how = How.CSS, using = "#twotabsearchtextbox")
+    WebElement searchboxwebelement;
+    @FindBy(how = How.CSS, using = ".nav-input")
+    WebElement submitbuttonwebelement;
 
-
-    @FindBy(how = How.CSS, using = "#twotabsearchtextbox") WebElement searchboxwebelement;
-    @FindBy(how = How.CSS, using = ".nav-input") WebElement submitbuttonwebelement;
-    /*//login
-    @FindBy(xpath = "/html/body/div[2]/header/div/div[2]/div[2]/div/a[2]/span[1]") WebElement HelloSignInButton;
-    @FindBy(xpath = "/html/body/div[2]/header/div/div[1]/div[4]/div[3]/div[2]/div/div[1]/div/a/span") WebElement signinLink;
-    @FindBy(id = "ap_email") WebElement emailBox;*/
     public WebElement getSearchboxwebelement() {
         return searchboxwebelement;
     }
+
     public WebElement getSubmitbuttonwebelement() {
         return submitbuttonwebelement;
     }
+
     public void searchFor(String value) {
         getSearchboxwebelement().sendKeys(value);
     }
+
     public void submitButton() {
         getSubmitbuttonwebelement().click();
     }
+
     public void clearInput() {
         getSearchboxwebelement().clear();
     }
+
     public List<String> getItemData() {
         List<String> data = new ArrayList<>();
         data.add("coffee");
@@ -51,12 +53,15 @@ public class HomePage extends CommonAPI {
             clearInput();
         }
     }
+
     public WebElement getSearchInputField() {
         return searchboxwebelement;
     }
+
     public void setSearchInputField(WebElement searchInputField) {
         this.searchboxwebelement = searchInputField;
     }
+
     public void searchItems() throws InterruptedException {
         List<String> itemList = getItemValue();
         for (String st : itemList) {
@@ -76,18 +81,7 @@ public class HomePage extends CommonAPI {
         itemsList.add("macAir");
         return itemsList;
     }
-
-    /*//Go to Login Page
-    public void goToLoginPage() {
-        HelloSignInButton.click();
-        for (String handle : driver.getWindowHandles()) {
-            driver.switchTo().window(handle);
-        }
-        new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(signinLink));
-        signinLink.click();*/
-    }
-
-
+}
 
 
 

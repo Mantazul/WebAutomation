@@ -16,9 +16,12 @@ public class LinkTestPageTest extends LinkTestPage {
     }
     @Test
     public void LinkTestPage() throws InterruptedException {
-        yourAzcom();
-        Thread.sleep(3000);
+    yourAzcom();
+    Thread.sleep(3000);
     }
     @Test
-    public void LinkTestPage1(){your();}
+    public void LinkTestPage1()throws InterruptedException{
+    your();
+    Thread.sleep(3000);
+    }
 }

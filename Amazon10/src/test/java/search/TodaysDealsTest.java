@@ -16,7 +16,7 @@ public class TodaysDealsTest extends TodayDeals {
     public void init(){
         object = PageFactory.initElements(driver, TodayDeals.class);
     }
-    @Test
+    @Test//f
     public void testMenuItems(){
         List<String> spanText = ConnectToMongoDB.readFromMongoDB();
         List<WebElement> element = retMenuList();
