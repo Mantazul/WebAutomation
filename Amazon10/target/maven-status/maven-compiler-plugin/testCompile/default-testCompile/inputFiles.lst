@@ -1,11 +1,13 @@
-/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dropDownMenuTest/TestDropDownMenu.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/Tests.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/LinkTestPageTest.java
-/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/LoginPageTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/SearchPageTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/TagNamePageTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/SearchBoxDataPageTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/HomePageTest.java
-/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/TodaysDealsTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dataDrivenTest/GoogleSheetsPageTest.java
-/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dataDrivenTest/LoginWithExcelTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/keyWordDrivenTest/FeaturesTest.java
 /Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/search/NavigationBarTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dropDownMenuTest/TestDropDownMenu.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/newCustomerPageTest/StartHerePageTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dataDrivenTest/LoginPageTest.java
+/Users/renxing/SeleniumTest18/WebAutomation/Amazon10/src/test/java/dataDrivenTest/LoginWithExcelTest.java

@@ -31,13 +31,13 @@ public class SearchPage extends CommonAPI {
     public void clearInput(){
         getSearchInputWebElement().clear();
     }
-    public List<String> getMenuData(){
+   /* public List<String> getMenuData(){
         List<String> data = new ArrayList<>();
         data.add("Laptop");
         data.add("honey");
         data.add("power bank");
         return data;
-    }
+    }*/
     public void searchItemsAndSubmitButton()throws IOException {
         List<String> list = getItemValue();
         for(int i=0; i<list.size(); i++) {

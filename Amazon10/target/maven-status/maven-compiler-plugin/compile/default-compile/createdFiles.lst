@@ -1,13 +1,16 @@
-pages/TodayDeals.class
 dataDrivenPage/LoginWithExcel$1.class
 pages/LinkTestPage.class
 pages/HomePage.class
 menu/MenuPage.class
 dataDrivenPage/GoogleSheetClass$2.class
+pages/SearchBoxDataPage.class
 dataDrivenPage/LoginWithExcel$2.class
+keyWordDrivenPage/Features.class
 dataDrivenPage/LoginWithExcel$3.class
+dataDrivenPage/LoginPage.class
 pages/NavigationBarOptionMethod.class
 dataDrivenPage/LoginWithExcel$4.class
+newCustomerPage/StartHerePage.class
 dataDrivenPage/GoogleSheetClass$1.class
 dataDrivenPage/GoogleSheetClass.class
 dataDrivenPage/LoginWithExcel.class

@@ -1,4 +1,5 @@
 database/User.class
+utility/DataReader1.class
 base/CommonAPI.class
 database/ConnectToSqlDB.class
 reporting/ExtentTestManager.class
@@ -13,3 +14,4 @@ base/CommonClass.class
 reporting/ExtentManager.class
 reporting/ApplicationLog.class
 utility/DataReader.class
+database/ConnectToSqlDB2.class

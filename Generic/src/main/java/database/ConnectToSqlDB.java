@@ -13,9 +13,10 @@ public class ConnectToSqlDB {
     public static Statement statement = null;
     public static PreparedStatement ps = null;
     public static ResultSet resultSet = null;
+
     public static Properties loadProperties() throws IOException{
         Properties prop = new Properties();
-        InputStream ism = new FileInputStream("src/secret.properties");
+        InputStream ism = new FileInputStream("/Users/renxing/SeleniumTest18/WebAutomation/Generic/databaseinfo/secret.properties");
         prop.load(ism);
         ism.close();
         return prop;
